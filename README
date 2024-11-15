@@ -1,11 +1,16 @@
 Easy to use abstinential (slippery), N-peekable and rewindable wrapper over an iterator. (Nightly Rust)
 
-Examples:
+Example:
 ```rs
 use slippery_iter::{SlipperyIter, SlipperyIterator, IntoSlipperyIterator};
 
 fn main() {
   let a = 0..=10;
+  let mut b = SlipperyIter::from(a);
+  println!("{:?}", b.peek_forward());
+  println!("{:?}", b.peek_forward_many::<8>());
+  println!("{:?}", b.consume_many::<6, 0>());
+  println!("{:?}", b.peek_forward());
+  println!("{:?}", b.peek_forward_many::<8>());
 }
-
 ```
