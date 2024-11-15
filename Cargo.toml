@@ -4,7 +4,8 @@ description = "Easy to use abstinential (slippery), N-peekable and rewindable wr
 authors = ["Dimitriy \"ay0ks\" <ay0o0ks000@gmail.com>"]
 repository = "https://github.com/ay0ks/slippery-iter"
 license = "MIT"
-version = "0.1.0"
+readme = "README"
+version = "0.1.1"
 edition = "2021"
 
 [dependencies]
