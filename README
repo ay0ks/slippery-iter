@@ -1,3 +1,4 @@
+[![Crates.io Version](https://img.shields.io/crates/v/slippery-iter)](https://crates.io/crates/slippery-iter) [![docs.rs](https://img.shields.io/docsrs/slippery-iter)](https://docs.rs/slippery-iter/)
 Easy to use abstinential (slippery), N-peekable and rewindable wrapper over an iterator. (Nightly Rust)
 
 Example:
