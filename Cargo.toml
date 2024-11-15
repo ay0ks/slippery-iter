@@ -1,0 +1,9 @@
+[package]
+name = "slippery-iter"
+description = "Easy to use abstinential (slippery), N-peekable and rewindable wrapper over an iterator. (Nightly Rust)"
+authors = ["Dimitriy \"ay0ks\" <ay0o0ks000@gmail.com>"]
+repository = "https://github.com/ay0ks/slippery-iter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
