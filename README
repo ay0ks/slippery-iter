@@ -1,0 +1,11 @@
+Easy to use abstinential (slippery), N-peekable and rewindable wrapper over an iterator. (Nightly Rust)
+
+Examples:
+```rs
+use slippery_iter::{SlipperyIter, SlipperyIterator, IntoSlipperyIterator};
+
+fn main() {
+  let a = 0..=10;
+}
+
+```
